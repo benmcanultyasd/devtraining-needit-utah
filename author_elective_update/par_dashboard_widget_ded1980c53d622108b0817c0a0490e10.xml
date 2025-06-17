@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">1deec80853d622108b0817c0a0490e39</canvas>
+        <component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component>
+        <component_props>{"src":"08C4AAB8-434F-47A2-9650-41B8AD706580.png","sources":"[]","fit":"fill","position":"center center","alt":"","href":"https://www.servicenow.com/","configAria":"{\"link\":{}}","id":"src","value":"08C4AAB8-434F-47A2-9650-41B8AD706580.png","propLabel":"Image source"}</component_props>
+        <h>13</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:29:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ded1980c53d622108b0817c0a0490e10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>par_dashboard_widget_ded1980c53d622108b0817c0a0490e10</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:29:15</sys_updated_on>
+        <visualization/>
+        <w>13</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>13dce5d03bc25a90986d048aa4e45a1a</instance_id>
+        <instance_name>dev290012</instance_name>
+        <name>par_dashboard_widget_ded1980c53d622108b0817c0a0490e10</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">1deec80853d622108b0817c0a0490e39</canvas><component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component><component_props>{"src":"08C4AAB8-434F-47A2-9650-41B8AD706580.png","sources":"[]","fit":"fill","position":"center center","alt":"","href":"https://www.servicenow.com/","configAria":"{\"link\":{}}","id":"src","value":"08C4AAB8-434F-47A2-9650-41B8AD706580.png","propLabel":"Image source"}</component_props><h>13</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-17 18:29:15</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ded1980c53d622108b0817c0a0490e10</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>par_dashboard_widget_ded1980c53d622108b0817c0a0490e10</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-17 18:29:15</sys_updated_on><visualization/><w>13</w><widget_props/><x>0</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>954388961</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8cf54fb3534222108b0817c0a0490ea6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:29:15</sys_created_on>
+        <sys_id>9ed1980c53d622108b0817c0a0490e12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1977f270d8b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:29:15</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>92d1980c36d62210a1493544ab32c312</update_guid>
+        <update_guid_history>92d1980c36d62210a1493544ab32c312:954388961</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">d773d0cc53d622108b0817c0a0490e57</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-17 18:36:24</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>00230e39acd645ba8001bb33f5ba1869</sys_id>
+        <sys_metadata>ded1980c53d622108b0817c0a0490e10</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_ded1980c53d622108b0817c0a0490e10</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_ded1980c53d622108b0817c0a0490e10">9ed1980c53d622108b0817c0a0490e12</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-17 18:36:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
