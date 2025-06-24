@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="DELETE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>Allows user to create a NeedIt record.</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.78",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "c7c06942250141ed854f1bcb7618a98b": {
+          "id": "c7c06942250141ed854f1bcb7618a98b",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "96dd5e42ced74a7fbeda277fb89b6bff": {
+          "id": "96dd5e42ced74a7fbeda277fb89b6bff",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "90417aafcb5c430f91b6eecee81aadf5",
+          "edgeType": "Edge",
+          "source": "c7c06942250141ed854f1bcb7618a98b",
+          "target": "96dd5e42ced74a7fbeda277fb89b6bff",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "fd603903eb424856b4c220afda682836": {
+      "id": "fd603903eb424856b4c220afda682836",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": null
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>Create NeedIt Record,create</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Create NeedIt Record</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id/>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 14:27:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>389d5fce539a62108b0817c0a0490e91</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create NeedIt Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_389d5fce539a62108b0817c0a0490e91</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 14:34:06</sys_updated_on>
+        <title>Create NeedIt Record</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="DELETE" query="documentkey=389d5fce539a62108b0817c0a0490e91"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>13dce5d03bc25a90986d048aa4e45a1a</instance_id>
+        <instance_name>dev290012</instance_name>
+        <name>sys_cb_topic_389d5fce539a62108b0817c0a0490e91</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic"><sys_cb_topic action="INSERT_OR_UPDATE"><applicability/><applicability_mode>query</applicability_mode><autopilot_topic>false</autopilot_topic><category/><channels/><connect_queue/><context_profiles/><description>Allows user to create a NeedIt record.</description><dialog_acts_enabled>false</dialog_acts_enabled><expose_on_palette>false</expose_on_palette><flexible_conversation_switching>false</flexible_conversation_switching><foundational>false</foundational><graph>{
+  "graph_api_version": "1.0.78",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "c7c06942250141ed854f1bcb7618a98b": {
+          "id": "c7c06942250141ed854f1bcb7618a98b",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "96dd5e42ced74a7fbeda277fb89b6bff": {
+          "id": "96dd5e42ced74a7fbeda277fb89b6bff",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "90417aafcb5c430f91b6eecee81aadf5",
+          "edgeType": "Edge",
+          "source": "c7c06942250141ed854f1bcb7618a98b",
+          "target": "96dd5e42ced74a7fbeda277fb89b6bff",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "fd603903eb424856b4c220afda682836": {
+      "id": "fd603903eb424856b4c220afda682836",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": null
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph><key_phrases>Create NeedIt Record,create</key_phrases><library>false</library><live_agent>false</live_agent><model_type>nlu_keyword</model_type><modify_confirmation_enabled>false</modify_confirmation_enabled><name>Create NeedIt Record</name><nlu_intent/><nlu_intent_label/><nlu_model/><nlu_model_label/><nlu_provider/><palette_label/><roles/><root_topic_id/><secure_custom_input_control>false</secure_custom_input_control><source_topic_id/><sys_class_name>sys_cb_topic</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-24 14:27:11</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>389d5fce539a62108b0817c0a0490e91</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Create NeedIt Record</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_cb_topic_389d5fce539a62108b0817c0a0490e91</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-24 14:34:06</sys_updated_on><title>Create NeedIt Record</title><triggerable_by_notification>false</triggerable_by_notification><type>STANDARD</type></sys_cb_topic><sys_translated_text action="delete_multiple" query="documentkey=389d5fce539a62108b0817c0a0490e91"/></record_update>]]></payload>
+        <payload_hash>1204791011</payload_hash>
+        <record_name>Create NeedIt Record</record_name>
+        <reverted_from/>
+        <source>6eb3ce28535222108b0817c0a0490e67</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 14:34:07</sys_created_on>
+        <sys_id>922f970253da62108b0817c0a0490e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>197a25c4b150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 14:34:07</sys_updated_on>
+        <type>Topic</type>
+        <update_guid>1a2f97020ada6210da7c1f2784bca255</update_guid>
+        <update_guid_history>1a2f97020ada6210da7c1f2784bca255:1204791011,82ad538eac9a6210615b69ffc69de2ff:-43611197,389d5fceb79a62106c00b365757bde93:1277263293</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-24 15:12:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_cb_topic">sys_cb_topic</sys_db_object>
+        <sys_id>a5f944868e63499cb2593300f0887101</sys_id>
+        <sys_metadata>389d5fce539a62108b0817c0a0490e91</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create NeedIt Record</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_cb_topic_389d5fce539a62108b0817c0a0490e91</sys_update_name>
+        <sys_update_version display_value="sys_cb_topic_389d5fce539a62108b0817c0a0490e91">922f970253da62108b0817c0a0490e56</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-24 15:12:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
